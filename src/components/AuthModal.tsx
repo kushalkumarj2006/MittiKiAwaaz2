@@ -76,8 +76,8 @@ export const AuthModal: React.FC<AuthModalProps> = ({
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          phone: roleTab === 'sarpanch' && phone === '9876543210' ? '9999999999' : phone,
-          password: roleTab === 'sarpanch' && password === '1234' ? 'sarpanch123' : password,
+          phone: roleTab === 'sarpanch' && phone === '' ? '' : phone,
+          password: roleTab === 'sarpanch' && password === '' ? '' : password,
           role: roleTab,
           lat: coords.lat,
           lng: coords.lng
