@@ -1,0 +1,11 @@
+{
+  "name": "Mitti Ki Awaaz",
+  "description": "Krishi Sakhi - AI Agriculture Portal with Soil Testing, Weather Alerts, Community Chat, Crop Sales & Machinery Rentals",
+  "requestFramePermissions": [
+    "microphone",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
